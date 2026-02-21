@@ -1,0 +1,110 @@
+/* Configuration générale */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barre d'annonce */
+.announcement-bar {
+    background-color: #9b86bd; /* Le violet de ton interface */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #8a74ad;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+nav ul li a.active {
+    background-color: #9b86bd;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* Layout Hero */
+.hero-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.hero-content h2 {
+    color: #8a74ad;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #9b86bd;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Témoignage */
+.testimonial {
+    background-color: #f3f0f7;
+    text-align: center;
+    padding: 60px 20px;
+    color: #8a74ad;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.testimonial .author {
+    display: block;
+    margin-top: 15px;
+    font-style: normal;
+    font-size: 1rem;
+    color: #666;
+}
